@@ -1,13 +1,18 @@
-.display {
-    background-color: blue;
-}
+@font-face {
+  font-family: 'DINPro-Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('DINPro-Medium'), url('DINPro-Medium_13936.woff') format('woff');
+  }
 
 .arrow{
     height:1px;
     width:1px;
     
 }
-
+.html{
+  font-family:'DINPro-Medium';
+}
 
 @keyframes rotation {
     from {
